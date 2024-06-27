@@ -1,0 +1,408 @@
+
+                                        /* banner */
+.banner_container{
+background-image: url("/assets/banner.jpg");
+width: 100%;
+height:600px;
+background-position: center;
+background-size: cover;
+
+}
+.black{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(149, 145, 145);
+}
+#banner_span{
+    font-size: 17px;
+    color: #bf925b;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: "Poppins", Arial, sans-serif
+}
+#banner_head{
+font-size: 50px;
+color:#fff;
+font-weight: 700;
+
+}
+.container{
+    height: 100%;
+}
+.blur{
+    width: 100%;
+    height:100vh;
+    background:#00000061;
+}
+.banner_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.head_span{
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    position: unset;
+}
+.banner_para{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.9);  
+} 
+.banner_para_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+ 
+#banner_btn{
+    padding: 10px;
+    border: 1px solid#bf925b;
+    background-color: transparent;
+    color: #fff;
+    transition: transform 0.3s,background-color 0.3s,color 0.3s ;
+}
+.banner_border{
+    border-left: 1px solid #bf925b;
+
+}
+#banner_btn:hover{
+    background-color: #bf925b;
+    transform: translateY(-5px) ;
+    
+}
+
+                                            /* card 1 */
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_1{
+    text-align: center;
+    border:1px solid #bf925b ;
+    color: #fff;
+    width: 310px;
+    height: 300px;
+    background-color: #bf925b; 
+}
+.card_1 h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.card_1 img{
+    border-radius: 50%;
+    border-color: #955506;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: -100px;
+    object-fit: cover;
+}
+#card_para{
+    width: 180px;
+    margin-left: 60px;
+}
+                                                    /* CARD 2 */
+.card_2{
+    text-align: center;
+    border:1px solid #bf925b ;
+    color: #ffffffda;
+    width: 320px;
+    height: 300px;
+    background-color: #bf925bcb;   
+}
+.card_2 h1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.card_2 img{
+    border-radius: 50%;
+    border-color: #955506;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: -100px;
+}
+#card_para{
+    width: 180px;
+    margin-left: 60px;
+}
+
+                                        /** Gallery */
+
+.gallery_head{
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    text-align: center;
+    background-color:#fff;
+    color:#bf925b;
+    border-bottom: 2px solid #bf925b;
+    font-size: 50PX;
+    background-color:#bf925b25;
+}
+
+a{
+    text-decoration: none;
+}
+.img_gallery{
+    width: 1100px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 10px;
+}
+.img_gallery img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.2s;
+    height: 400px;
+}
+.img_gallery img:hover{
+    transform: scale(0.8);
+    border-radius: 15%;
+    box-sizing: 0 32px 75px red;
+    scale: 1.1;
+}
+.full_img{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+.full_img img{
+    width: 90%;
+    max-width: 500px;
+}
+.full_img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+                                    /*equipments card  */
+ 
+.equipment_head{
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    text-align: center;
+    background-color:#fff;
+    color:#bf925b;
+    border-bottom: 2px solid #bf925b;
+    font-size: 50PX;
+    background-color:#bf925b25;
+}
+.card_cantainer_2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 10px;
+    width: 100%;
+    height: 200px;
+}
+/* card 3 */
+.card_3{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    height: 250px;
+    width: 300px;
+    background-color: #bf925b;
+    color: #ffffffda;
+    
+
+}
+.card_3 img{
+    position: relative;
+    left: 50px;
+    top: 9px;
+    margin-top: -80px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.card_content h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom:15px;
+}
+.card_content p{
+    text-align: center;
+    
+}
+                                                /* care 4 */
+
+.card_4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+    height: 250px;
+    width: 300px;
+    background-color: #bf925bc7;
+    color: #ffffffda;
+    
+
+}
+.card_cantainer_2 a{
+    text-decoration: none;
+    color: #ffffffda;
+}
+.card_4 img{
+    position: relative;
+    left: 50px;
+    top: 9px;
+    margin-top: -80px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.card_content h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom:15px;
+}
+.card_content p{
+    text-align: center;
+    
+}
+
+
+                                                /* hair_product */
+
+.hair_product_head{
+    text-align: center;
+    background-color:#fff;
+    color:#bf925b;
+    border-bottom: 2px solid #bf925b;
+    font-size: 50PX;
+    margin-top: 40px;
+    background-color:#bf925b25;
+}
+.hair_product_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hair_product_card{
+    background-color:#fff;
+    width:270px;
+    position: relative;
+    top: 20px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.hair_product_card img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.hair_product_card #para{
+border:1px solid #bf925b;
+border-radius: 50%;
+background-color:#bf925b;
+height: 50px;
+width: 50px;
+position: relative;
+top: -30px;
+font-size: 60px;
+text-align: center;
+margin: 0%;
+}
+#hair_product_card_btn{
+    background-color: #bf925b;
+    border: 1px solid #bf925b;
+    color: #fff;
+    padding: 6px 13px;
+    border-radius: 6px;
+    transition: transform 0.3s,background-color 0.3s,color 0.3s ;
+    
+}
+#hair_product_card_btn:hover{
+background-color: #bf925b;
+color: #ffffffda;
+transform: translateY(-5px);
+}
+.hair_product_card span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #bf925b;
+    width: 300px;
+    position: static;
+}
+.hair_product_card #text{
+    color: #bf925b;
+}
+.hair_product_card #para{
+    color: #ffffffda;
+}
+
+                                            /* about section  */
+.banner_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 50px;
+}
+.banner_img img{
+    width: 550px;
+    height: 400px;
+}
+.banner_content p{
+    font-size: 20px;
+}
+.banner_content h1{
+    color: #bf925b;
+    font-size: 20px;
+}
+.banner_content h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.banner_content .border{
+    border:1px solid #955506b9;
+    background-color:#955506b9;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    
+}
+.border h6{
+    font-size: 20px;
+    color: #ffffffda;
+}
+.border p{
+    font-size: 12px;
+    color: #ffffffda;
+    
+}
+.banner_content hr{
+    border-bottom:10px solid #955506;
+    font-weight: bolder;
+}
+.banner_content h1{
+    margin-bottom: 0%;
+}
+
+
